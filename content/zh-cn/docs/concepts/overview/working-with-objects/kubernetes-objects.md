@@ -40,7 +40,7 @@ Specifically, they can describe:
 
 在 Kubernetes 系统中，*Kubernetes 对象* 是持久化的实体。
 Kubernetes 使用这些实体去表示整个集群的状态。
-比較特别地是，它们描述了如下信息：
+比较特别地是，它们描述了如下信息：
 
 * 哪些容器化应用正在运行（以及在哪些节点上运行）
 * 可以被应用使用的资源

@@ -56,7 +56,7 @@ The first step in debugging a Pod is taking a look at it.  Check the current sta
 调试 Pod 的第一步是查看 Pod 信息。用如下命令查看 Pod 的当前状态和最近的事件：
 
 ```shell
-kubectl describe pods ${POD_NAME}
+kubectl describe pod ${POD_NAME} -n {POD_NAMESPACE}
 ```
 
 <!--
